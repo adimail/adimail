@@ -7,38 +7,42 @@
         body {
             margin: 0;
             padding: 0;
-            color: #3f3f3f;
+            color: #393939;
             font-family: Calibri;
         }
-
+        .root{
+            display: flex;
+            flex-direction: column;
+        }
         .headcontent {
-            padding: 3em;
+            padding: 0 6em;
             display: flex;
             text-align: center;
             align-items: center;
             justify-content: center;
+            height: 100vh;
         }
-
         .text {
             flex: 1;
             text-align: left;
         }
-
+        .info{
+            text-align: left;
+        }
         .image {
             flex: 1;
-            height: 80vh;
+            height: 85vh;
             display: flex;
             text-align: center;
             align-items: center;
             justify-content: center;
         }
-
         .image img {
             max-width: 100%;
             max-height: 100%;
             border-radius: 50%;
         }
-
+        
         @media (max-width: 500px) {
 
             .headcontent{
@@ -58,14 +62,19 @@
 
         <div class="headcontent">
             <div class="text">
-                <h1>Aditya Godse</h1>
+                <h1 style="font-size: 50px;">Aditya Godse</h1>
                 <p>Research && Engineering</p>
+                <hr>
+                <div class="info">
+                    <p>Hey, I'm <a href="assets/about.html">Aditya</a></p>
+                    <p>Here are <a href="assets/papers.html">Papers</a>, <a href="assets/books.html">books</a> and <a href="assets/movies.html">movies</a> I like</p>
+                    <p>My <a href="assets/work.html">work</a></p>
+                </div>
             </div>
             <div class="image">
                 <img src="assets/adimail.jpg" alt="image">
             </div>
         </div>
-        
     </div>
 </body>
 </html>
