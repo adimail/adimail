@@ -10,6 +10,13 @@
             color: #3f3f3f;
             font-family: Calibri;
         }
+        .head{
+            display: flex;
+            justify-content: space-between;
+        }
+        .head p i{
+            font-size: small;
+        }
 
         li{
             list-style: none;
@@ -28,6 +35,9 @@
         .root{
             margin: 6em;
         }
+        a{
+            text-decoration: none;
+        }
 
         @media (max-width: 500px) {
             .root{
@@ -41,7 +51,10 @@
 <body>
     <div class="root">
         <div class="content">
-            <p><a href="../index.html">Home</a> / content</p>
+            <div class="head">
+                <p><a href="../index.html">Home</a> / content</p>
+                <p><i>last updated 14 oct 2023</i></p>
+            </div>
             <hr>
             <p>Running log of content I found over the internet</p>
         </div>
