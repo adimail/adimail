@@ -16,6 +16,27 @@
       color: rgb(58, 58, 210);
     }
 
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .column {
+      background-color: #fff;
+    }
+
+    .column img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0;
+      transform: scale(0.9);
+    }
+    h1{
+      margin: 40px;
+    }
     .head {
       display: flex;
       justify-content: space-between;
@@ -55,13 +76,62 @@
   <div class="root">
     <div class="head">
       <p><a href="../index.html">Home</a> / <a href="content.html">content</a> / movies</p>
-      <p><i>last updated 14 oct 2023</i></p>
+      <p><i>last updated 14 Oct 2023</i></p>
     </div>
     <div class="content">
       <hr>
-      <h1>Oh, I love movies!</h1>
-    </div>
+      <h1 style="text-align: center;">I love movies</h1>
+      
+      <div class="gallery">
+        <!-- First Row -->
+        <div class="column">
+          <img src="movies/img1.jpg" alt="Image 1">
+          <img src="movies/img2.jpg" alt="Image 2">
+          <img src="movies/img3.jpg" alt="Image 3">
+          <img src="movies/img4.jpg" alt="Image 4">
+          <img src="movies/img5.jpg" alt="Image 5">
+          <img src="movies/img6.jpg" alt="Image 6">
+          <img src="movies/img7.jpg" alt="Image 7">
+          <img src="movies/img8.jpg" alt="Image 8">
+        </div>
 
+        <!-- Second Row -->
+        <div class="column">
+          <img src="movies/img9.jpg" alt="Image 9">
+          <img src="movies/img10.jpg" alt="Image 10">
+          <img src="movies/img11.jpg" alt="Image 11">
+          <img src="movies/img12.jpg" alt="Image 12">
+          <img src="movies/img13.jpg" alt="Image 13">
+          <img src="movies/img14.jpg" alt="Image 14">
+          <img src="movies/img15.jpg" alt="Image 15">
+          <img src="movies/img16.jpg" alt="Image 16">
+        </div>
+
+        <!-- Third Row -->
+        <div class="column">
+          <img src="movies/img17.jpg" alt="Image 17">
+          <img src="movies/img18.jpg" alt="Image 18">
+          <img src="movies/img19.jpg" alt="Image 19">
+          <img src="movies/img20.jpg" alt="Image 20">
+          <img src="movies/img21.jpg" alt="Image 21">
+          <img src="movies/img11.jpg" alt="Image 11">
+          <img src="movies/img23.jpg" alt="Image 23">
+          <img src="movies/img24.jpg" alt="Image 24">
+        </div>
+
+        <!-- fourth Row -->
+        <div class="column">
+          <img src="movies/img25.jpg" alt="Image 25">
+          <img src="movies/img26.jpg" alt="Image 26">
+          <img src="movies/img27.jpg" alt="Image 27">
+          <img src="movies/img28.jpg" alt="Image 28">
+          <img src="movies/img29.jpg" alt="Image 29">
+          <img src="movies/img30.jpg" alt="Image 30">
+          <img src="movies/img31.jpg" alt="Image 31">
+          <img src="movies/img32.jpg" alt="Image 32">
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 
