@@ -16,3 +16,10 @@ for old_name in jpg_files:
     counter += 1
 
 print("All .jpg files have been renamed.")
+
+# I wrote this python script to rename all the image files (for the movies page) in order
+
+
+# Currently I am working on a project 
+# My objective is to scan all images from a directory which has screenshots from 
+# various movies and I want to rename each screenshot from the movie it belongs to.
